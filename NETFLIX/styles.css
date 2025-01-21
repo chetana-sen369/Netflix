@@ -1,0 +1,249 @@
+*{
+   margin-top: 0%;
+   margin: 0%;
+   scroll-behavior: smooth;
+}
+
+.logo{
+   position: relative;
+   height: auto;
+   width: 60%;
+   margin: auto; 
+   margin-left: 0;
+   justify-content: flex-start;
+}
+
+.image {
+   border: 0;
+   height: 100vh;
+   width: 100%;
+   background-image: linear-gradient(90deg, rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(https://assets.nflxext.com/ffe/siteui/vlv3/154a9550-ce07-4e28-819c-63185dd849f8/web/IN-en-20250106-TRIFECTA-perspective_27b02e7c-f668-4639-9e82-1a5485084b2a_large.jpg);
+   background-repeat: no-repeat;
+  
+   position: relative;
+}
+button {
+   border: 0;
+    cursor: pointer;
+    width: auto;
+    font-size: 0.999rem;
+    font-weight: 500;
+    min-height: 2rem;
+    padding: 0.25rem 1rem;
+    border-radius: 0.25rem;
+    background: rgb(229, 0, 0);
+    color: rgb(255, 255, 255);
+    margin-left: 4px;
+}
+.one {
+   border-color: #ffffff;
+    cursor: pointer;
+    width: 120px  ;
+    font-size: 0.999rem;
+    font-weight: 500;
+    min-height: 2rem;
+    padding: 0.25rem 1rem;
+    border-radius: 0.25rem;
+    background-color: rgba(0,0,0,0.7);
+    color: rgb(255,255,255);
+    margin-right: 4px;
+}
+header {
+   width: 80%;
+   margin-top: 30px;
+   height: auto;
+   margin: auto;
+   display: flex;
+   justify-content: right ;
+   padding-top: 2rem;
+}
+.text{
+   font-size: 3rem !important;
+   font-weight: 800 !important;
+   line-height: 4rem;
+}
+
+.alltext{
+   font-size: 20px;
+   font-weight: 400;
+   color: #ffffff;
+   width: 700px;
+   height: auto;
+   margin: auto;
+   line-height: 2rem;
+   text-align: center;
+   font-family:   Sans-serif;
+   justify-content: center;
+   margin-top:9%;
+   margin-bottom: 0%;
+}
+input[type="email"] {
+   border-color: #ffffff;
+   text-align: left;
+    position: relative;
+    width: 380px;
+    height: 3rem;
+    font-size:large;
+    margin-left: 0;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 5px;
+    font-family: Sans-serif;
+}
+input[type="email"] :active {
+   cursor: text;
+}
+.get-start {
+   height: 3.25rem;
+   border-radius: 4px;
+   width: 200px;
+   background: rgb(229, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 0;
+    cursor: pointer;
+    width: auto;
+    font-size: 22px;
+    font-weight: bolder;
+    font-family: Sans-serif;   
+}
+.login {
+   height: 4rem;
+   width: auto;
+   padding: 0.5rem;
+   justify-content: center;
+}
+h2 {
+ color: #ffffff;
+ font-family: Sans-serif;
+ font-weight: bold;
+ margin-left: 10%;
+}
+.two {
+width:auto;
+height: 2.25rem;
+font-size: 15px;
+ padding-top: 0.5rem;
+ padding-right: calc(2.25rem + 0rem);
+ padding-bottom: 0.5rem;
+ padding-left: 0.75rem;
+ font-weight: 500;
+ border-color:#ffffff;
+ background-color: #000000;
+ color: #ffffff;
+ justify-content: space-around;
+ border-radius: 5px;
+}
+.background_2 {
+   width: 100%;
+   height: auto;
+   background: #000000;
+   margin-top:0px;
+   font-family: sans-serif;
+   margin-top: 0;
+}
+.movie_cards {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 20px;
+   padding: 20px;
+}
+.cards img {
+   border-radius: 10px;
+}
+.cards img:hover {
+   cursor: pointer;
+   transform: scale(1.1);
+}
+.box {
+   margin-top: 120px;
+   width: 100%;
+   height: 4px;
+   background: linear-gradient(to right, rgba(33, 13, 22, 1) 5%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) );
+}
+.box2 {
+   height: 55px;
+   width: 100%;
+   background:radial-gradient(50% 500% at 50% -400%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1) 100%), black;
+}
+.H2{
+    margin-top: 4rem;
+    margin-bottom: 10px;
+    margin-left: 1%;
+}
+.container{
+  margin-left: 5%;
+  margin-right: 5%; 
+}
+.reason-box{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(200px, 3fr));
+   gap: 5px;
+   height: auto;
+}
+.boxes {
+   background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+   padding: 1.5rem 1.5rem 6rem 1.5rem;
+   border-radius: 25px;
+   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+   height: 180px;
+   width: 230px;
+}
+.boxes h3{
+   margin-bottom: 10px;
+   font-size: 25px;
+   color: #ffffff;
+   margin-left: 0;
+   font-weight: bold;
+}
+.boxes p{
+   margin-top: 5px;
+   font-size: 16px;
+   font-weight: 500;
+   color: #b3b3b3;
+}
+.questions p{
+   padding: 1.5rem;
+   height: 2rem;
+   width: auto;
+    background: rgb(45, 45, 45);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    font-size: 25px;
+    text-align: left;
+}
+.question p{
+   margin-bottom: 10px;
+}
+.question p:hover{
+   background-color: rgb(60,60,60);
+}
+span{
+  text-align:right;
+  font-size: 40px;
+  font-weight: normal;
+}
+.last {
+   color: #b3b3b3;
+   text-decoration: underline;
+   margin-top: 2.5rem;
+   margin-left: 10%;
+   margin-right: auto;
+}
+table{
+   height: 130px;
+    width: 900px;
+    text-align: left;
+    border: 0;
+    font-size: 14px;
+    font-weight: 200;
+    margin-bottom: 3rem; 
+}
+a{
+   color: #b3b3b3;
+}
+
+
